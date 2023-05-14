@@ -1,0 +1,82 @@
+.parallax_container, .parallax_layer {
+	height: 1000px;
+}
+
+.underScroll_Container
+{
+  width: 100vw;
+  height: 100vw;
+  background: linear-gradient(to bottom, #010c13,#46345e, #3a2b4f);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-container
+{
+  width: 50%;
+  height: 50%;
+}
+
+.bottom_layer
+{
+  background-size: 900px 600px ;
+  background-position:  center;
+  background-repeat: repeat-x;
+}
+
+#IslandLayer1
+{
+  background-image: url("./assets/Island/Layers/L1.png");
+}
+
+#IslandLayer2
+{
+  background-image: url("./assets/Island/Layers/L2.png");
+}
+
+#IslandLayer3
+{
+  background-image: url("./assets/Island/Layers/L3.png");
+}
+
+#IslandLayer4
+{
+  background-image: url("./assets/Island/Layers/L4.png");
+}
+
+#IslandLayer5
+{
+  background-image: url("./assets/Island/Layers/L5.png");
+  
+}
+
+
+
+
+#mountainLayer1 {
+  background-image: url("./assets/Super_Mountain_Dusk_Files/Layers/sky.png");
+  
+}
+
+#mountainLayer2 {
+  background-image: url("./assets/Super_Mountain_Dusk_Files/Layers/far-clouds.png");
+  
+}
+
+#mountainLayer3 {
+  background-image: url("./assets/Super_Mountain_Dusk_Files/Layers/near-clouds.png");
+  
+}
+#mountainLayer4 {
+  background-image: url("./assets/Super_Mountain_Dusk_Files/Layers/far-mountains.png");
+  
+}
+#mountainLayer5 {
+  background-image: url("./assets/Super_Mountain_Dusk_Files/Layers/mountains.png");
+  
+}
+#mountainLayer6 {
+  background-image: url("./assets/Super_Mountain_Dusk_Files/Layers/trees.png");
+  
+}
