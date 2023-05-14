@@ -2,6 +2,7 @@
 	height: 1000px;
 }
 
+/* This is teóhe middle part of the component */
 .underScroll_Container
 {
   width: 100vw;
@@ -12,19 +13,22 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .text-container
 {
   width: 50%;
   height: 50%;
 }
 
-.bottom_layer
+/* This needed some extra styling as the image was too small */
+.bottom_layer 
 {
   background-size: 900px 600px ;
   background-position:  center;
   background-repeat: repeat-x;
 }
 
+/* The images to the top part of the component */
 #IslandLayer1
 {
   background-image: url("./assets/Island/Layers/L1.png");
@@ -52,7 +56,7 @@
 }
 
 
-
+/* The images to the bottom part of the component */
 
 #mountainLayer1 {
   background-image: url("./assets/Super_Mountain_Dusk_Files/Layers/sky.png");
